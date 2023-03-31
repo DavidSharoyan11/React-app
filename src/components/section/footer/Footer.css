@@ -1,0 +1,44 @@
+footer {
+    padding: 0 55px;
+}
+
+.footer__content {
+    display: flex;
+    gap: 30px;
+}
+
+footer h3 {
+    color: #1A6692;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+footer p {
+    color: #626364;
+    line-height: 1.8;
+    margin-bottom: 45px;
+}
+
+
+
+.footer__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__copyright {
+    color: #626364;
+    padding: 25px 15px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer button {
+    background: none;
+    border: 1px solid silver;
+    color: #626364;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer ;
+    align-self: flex-end;
+}

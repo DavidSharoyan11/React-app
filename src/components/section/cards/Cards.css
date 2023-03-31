@@ -1,0 +1,43 @@
+.cards{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+    padding: 55px;
+}
+
+.card {
+    flex-basis: calc(25% - 8px);
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.card__content {
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+.section__paging {
+    display: flex;
+    justify-content: center;
+}
+
+section button {
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border: 1px solid green;
+    color: green;
+    padding: 10px 30px;
+    background: none;
+}
+
+section button:hover {
+    background-color: green;
+    color: white;
+}
+section button{
+    margin: 7px;
+}

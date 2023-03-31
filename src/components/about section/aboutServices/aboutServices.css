@@ -1,0 +1,53 @@
+.about-services__cards {
+    display: flex;
+    margin-top: 20px;
+}
+
+.about-services__card {
+    padding: 45px 35px;
+    flex-basis: 33%;
+    text-align: center;
+}
+
+.about-services__card p {
+    color: #626364;
+}
+
+.about-services__card svg {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 65px;
+}
+
+.about-services__card button {
+    border: none;
+    background-color: #2D99CC;
+    color: white;
+    cursor: pointer;
+    padding: 10px 30px;
+    margin-top: 35px;
+}
+
+.about-services__history {
+    display: flex;
+    margin: 45px 55px 0;
+}
+
+.about-services__history-content { 
+    margin: 0 95px 0 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-services__history-content p {
+    color: #626364;
+    line-height: 1.8;
+}
+
+.about-services__history-content h3{
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #1A6692;
+    margin-bottom: 10px;
+}
